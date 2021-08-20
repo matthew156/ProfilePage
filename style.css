@@ -1,0 +1,217 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* USER CARD */
+
+.wrapper1 {
+  height: 370px;
+  width: 450px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  border: 2px solid grey;
+}
+
+.usercard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 18px;
+}
+
+.toprow {
+  background-color: #17a2b8;
+  width: 100%;
+}
+img.profilepic {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 40px;
+  left: 15px;
+  margin: 10px;
+}
+
+.user {
+  margin: 0px 0px 10px 0px;
+}
+
+.location {
+  display: flex;
+  margin: 0px 0px 10px 0px;
+  justify-content: left;
+}
+
+.utility {
+  height: 20px;
+}
+img.utility {
+  position: relative;
+  top: 5px;
+}
+
+.map-marker {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.description {
+  margin: 0px 0px 10px 0px;
+}
+
+/* NAVBAR Styling */
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  width: 100%;
+}
+
+.navbarlinks {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #17a2b8;
+  font-size: 18px;
+  margin: 30px 0px;
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+.profile {
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+
+/*EDUCATION*/
+.education {
+  border: solid 2px grey;
+  border-bottom: none;
+  position: relative;
+  top: 450px;
+  left: 100px;
+  height: 180px;
+  width: 450px;
+}
+.educatetop {
+  background-color: black;
+  color: white;
+}
+#text {
+  padding-left: 20px;
+}
+
+/*Connection Requests*/
+.connectionformat {
+  height: 150px;
+  width: 380px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 600px;
+  bottom: 130px;
+}
+
+.connection-requests {
+  color: white;
+  background-color: black;
+}
+
+.friend {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+.friend2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+.user-pics {
+  border-radius: 50%;
+  height: 50px;
+}
+.icons {
+  height: 50px;
+}
+
+.friendformat {
+  margin: 18px;
+}
+
+/*YOUR CONNECTIONS*/
+.yourconnections {
+  height: 250px;
+  width: 380px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-evenly;
+  left: 600px;
+  top: 350px;
+}
+
+.yourconnectionsformat {
+  color: white;
+  background-color: black;
+  position: relative;
+  bottom: 9px;
+}
+
+.list {
+  position: relative;
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.user-pic {
+  border-radius: 50%;
+  height: 50px;
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+}
+
+.show-more {
+  border: 2px solid grey;
+  width: 380px;
+  position: relative;
+  left: 600px;
+  top: 170px;
+}
